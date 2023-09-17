@@ -1,6 +1,4 @@
-import React from "react";
 import Navbar from "./Navbar";
-import Flower from "./About";
 import { useNavigate } from 'react-router-dom';
 
 const Home = () => {

@@ -1,8 +1,6 @@
-import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from '../src/components/Home'
-import Navbar from './components/Navbar';
 import About from './components/About';
 import Kniting from './components/Kniting';
 import Venner from './components/Venner';
