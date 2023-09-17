@@ -13,8 +13,8 @@ const Home = () => {
     const gotToKnitting = () => {
         navigate('/kniting'); 
       };
-    const gotToAlbum = () => {
-        navigate('/album'); 
+    const gotToVenner = () => {
+        navigate('/venner'); 
       };
 
     return (
@@ -75,7 +75,7 @@ const Home = () => {
                             <button onClick={gotToKnitting} className="text-blue-800 font-bold font-handwriting text-3xl hover:text-5xl"> Strikking </button>
                     </div>
                     <div className="absolute bottom-72 right-80">
-                            <button onClick={gotToAlbum} className="text-pink-500 font-bold font-handwriting text-3xl hover:text-5xl"> Album </button>
+                            <button onClick={gotToVenner} className="text-pink-500 font-bold font-handwriting text-3xl hover:text-5xl"> Venner </button>
                     </div>
                 
                 
@@ -83,8 +83,9 @@ const Home = () => {
                     {/* Ikke Bakgrunn */}
                     {/* Kan sikkert gjøres på en letter måte, men dette er det som gjør at teksten er midt på: top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 */}
                     <div className="absolute z-10 text-center top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 py-2 px-4  ">
-                            
-                        <h1 className="font-rock font-bold text-7xl text-pink-600">Aurora Kennedy</h1>
+                        
+                        <Navbar/>
+                        {/* <h1 className="font-rock font-bold text-7xl text-pink-600">Aurora Kennedy</h1> */}
                         <br/>
                         <br/>
 

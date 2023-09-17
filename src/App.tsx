@@ -5,7 +5,7 @@ import Home from '../src/components/Home'
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Kniting from './components/Kniting';
-import Album from './components/Album';
+import Venner from './components/Venner';
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About />}/>
         <Route path="/kniting" element={<Kniting />}/>
-        <Route path="/album" element={<Album />}/>
+        <Route path="/venner" element={<Venner />}/>
         
       </Routes>
     </Router>

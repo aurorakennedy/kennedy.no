@@ -6,6 +6,7 @@ const Kniting = () => {
         <>
         <body>
             {/* Bakgrunn */}
+            <Navbar/>
             <main className="bg-blue-400">
                 <div className="text-center pt-10">
                     <h1 className=" text-3xl text-fuchsia-950">Jeg elsker å strikke, så dette er en del av mine prosjekter</h1>

@@ -2,14 +2,14 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <nav className="background-color: rgb(190 242 100);">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between h-16">
-              <div className="flex items-center">
-                <div className="flex-shrink-0 relative">
-                  <span className="text-pink-600 font-burtons text-3xl">Aurora Kennedy</span>
-                </div>
-              </div>
+        <nav className="background-color: rgb(190 242 100); bg-white border-gray-200 dark:bg-gray-900">
+          <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"></div>
+          <div className="absolute text-center left-1/2 transform -translate-x-1/2 -translate-y-1/2 py-2 px-4  ">
+            <a href="/">
+            <span className="font-rock font-bold text-7xl text-pink-600">Aurora Kennedy</span>
+            </a>
+          </div>
+              
               {/* <div className="hidden md:block">
                 <div className="ml-4 flex items-center md:ml-6">
                   <a
@@ -32,8 +32,7 @@ const Navbar = () => {
                   </a>
                 </div>
               </div> */}
-            </div>
-          </div>
+          
         </nav>
       );
     };
