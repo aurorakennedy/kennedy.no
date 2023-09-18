@@ -9,8 +9,8 @@ const Home = () => {
   const gotToKnitting = () => {
     navigate("/kniting");
   };
-  const gotToAlbum = () => {
-    navigate("/album");
+  const gotToVenner = () => {
+    navigate("/venner");
   };
 
   return (
@@ -132,11 +132,11 @@ const Home = () => {
             </div>
             <div className="absolute bottom-72 right-80">
               <button
-                onClick={gotToAlbum}
+                onClick={gotToVenner}
                 className="text-pink-500 font-bold font-handwriting text-3xl hover:text-5xl"
               >
                 {" "}
-                Album{" "}
+                Venner{" "}
               </button>
             </div>
 

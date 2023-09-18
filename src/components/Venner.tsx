@@ -15,6 +15,10 @@ const Venner = () => {
               className="w-64"
             />
           </div>
+          <div className="ml-24">
+            <a href="https://isak.me/"> Isak</a>
+            <img src="/images/Isak.jpg" alt="Min venn Isak" className="w-64" />
+          </div>
         </main>
       </body>
     </>
