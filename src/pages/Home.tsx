@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -16,6 +17,7 @@ const Home = () => {
   return (
     <>
       <body className="overflow-y: scroll bg-lime-500 ">
+        <Navbar />
         <main className="bg-lime-500  ">
           <div className="relative  h-screen w-screen   ">
             {/* Bakgrunn */}
@@ -143,9 +145,9 @@ const Home = () => {
             {/* Ikke Bakgrunn */}
             {/* Kan sikkert gjøres på en letter måte, men dette er det som gjør at teksten er midt på: top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 */}
             <div className="absolute z-10 text-center top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 py-2 px-4  ">
-              <h1 className="font-rock font-bold text-7xl text-pink-600">
+              {/*<h1 className="font-rock font-bold text-7xl text-pink-600">
                 Aurora Kennedy
-              </h1>
+  </h1>*/}
               <br />
               <br />
 
