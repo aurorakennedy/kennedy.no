@@ -1,28 +1,29 @@
-const Venner = () => {
+import List from "../components/List";
+import Navbar from "../components/Navbar";
+
+function Venner() {
+  const vennData = [
+    {
+      url: "https://helloklara.com/",
+      navn: "Klara",
+      bilde: "/images/Klara.jpeg",
+    },
+    { url: "https://isak.me/", navn: "Isak", bilde: "/images/Isak.jpg" },
+  ];
+
   return (
-    <>
-      <body>
-        {/* Bakgrunn */}
-        <main className="bg-blue-400">
-          <h1 className=" text-3xl text-fuchsia-950 text-center pt-10 pb-16">
-            Vennene mine
-          </h1>
-          <div className="ml-24">
-            <a href="https://helloklara.com/"> Klara</a>
-            <img
-              src="/images/Klara.jpeg"
-              alt="Min venn Klara"
-              className="w-64"
-            />
-          </div>
-          <div className="ml-24">
-            <a href="https://isak.me/"> Isak</a>
-            <img src="/images/Isak.jpg" alt="Min venn Isak" className="w-64" />
-          </div>
-        </main>
-      </body>
-    </>
+    <div className="bg-pink-200">
+      <Navbar />
+      <div>
+        <h1 className="text-2xl text-center pt-10 pb-16 font-mono">
+          {" "}
+          Sjekk ut nettsidene til vennene mine!
+        </h1>
+
+        <List items={vennData} />
+      </div>
+    </div>
   );
-};
+}
 
 export default Venner;
