@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kenendy.no/static/css/main.bb0134e1.css",
+    "main.js": "/kenendy.no/static/js/main.c0a87bf5.js",
+    "static/js/787.3416ea37.chunk.js": "/kenendy.no/static/js/787.3416ea37.chunk.js",
+    "index.html": "/kenendy.no/index.html",
+    "main.bb0134e1.css.map": "/kenendy.no/static/css/main.bb0134e1.css.map",
+    "main.c0a87bf5.js.map": "/kenendy.no/static/js/main.c0a87bf5.js.map",
+    "787.3416ea37.chunk.js.map": "/kenendy.no/static/js/787.3416ea37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb0134e1.css",
+    "static/js/main.c0a87bf5.js"
+  ]
+}
